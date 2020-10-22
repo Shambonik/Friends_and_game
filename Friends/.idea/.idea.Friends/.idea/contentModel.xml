@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\shamb\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\shamb\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Friends.-1084676077.00" t="ExcludeRecursive" />
+    <e p="D:\Documents\GitHub\Friends" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="JsonDotNet" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="API" t="Include">
+            <e p="GameAPI.cs" t="Include" />
+            <e p="Models" t="Include">
+              <e p="ChatModel.cs" t="Include" />
+              <e p="GameBuffer.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
+              <e p="Race.cs" t="Include" />
+              <e p="Unit.cs" t="Include" />
+              <e p="UnitResponseData.cs" t="Include" />
+              <e p="User.cs" t="Include" />
+              <e p="WorldUpdate.cs" t="Include" />
+            </e>
+            <e p="Requests" t="Include">
+              <e p="ChangeNicknameRequest.cs" t="Include" />
+              <e p="CreateNewCharacter.cs" t="Include" />
+            </e>
+            <e p="Responses" t="Include">
+              <e p="ChangeNickname.cs" t="Include" />
+              <e p="GameManager.cs" t="Include" />
+              <e p="GetUnitsResponse.cs" t="Include" />
+              <e p="LoginResponse.cs" t="Include" />
+              <e p="RegistrationResponse.cs" t="Include" />
+              <e p="Utils" t="Include">
+                <e p="Net.cs" t="Include" />
+                <e p="UdpState.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UnitAPI.cs" t="Include" />
+            <e p="UserAPI.cs" t="Include" />
+          </e>
+          <e p="Network.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="ButtonsGeneration" t="Include">
+              <e p="UIButtonGeneration.cs" t="Include" />
+              <e p="UICharacterGeneration.cs" t="Include" />
+              <e p="UIGameModeGeneration.cs" t="Include" />
+              <e p="UIInventoryGeneration.cs" t="Include" />
+            </e>
+            <e p="Chat" t="Include">
+              <e p="UIChat.cs" t="Include" />
+            </e>
+            <e p="DeviceInfo.cs" t="Include" />
+            <e p="Friends" t="Include">
+              <e p="FriendItem.cs" t="Include" />
+              <e p="FriendsScript.cs" t="Include" />
+            </e>
+            <e p="InputSystem.cs" t="Include" />
+            <e p="Inventory" t="Include">
+              <e p="InventoryScript.cs" t="Include" />
+              <e p="ItemInventory.cs" t="Include" />
+            </e>
+            <e p="ItemMenu.cs" t="Include" />
+            <e p="JoystickController.cs" t="Include" />
+            <e p="MessageScript.cs" t="Include" />
+            <e p="UICreateCharacterPanel.cs" t="Include" />
+            <e p="UIMainMenu.cs" t="Include" />
+          </e>
+          <e p="Units" t="Include">
+            <e p="Character.cs" t="Include" />
+            <e p="Unit.cs" t="Include" />
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="MapJSONGenerator.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Friends.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

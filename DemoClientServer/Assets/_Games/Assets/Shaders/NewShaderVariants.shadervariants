@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_EXP2
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2
+        passType: 0
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: FOG_EXP2 _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: UNITY_HDR_ON _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: FOG_EXP2 UNITY_HDR_ON _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 10500, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+          SHADOWS_SHADOWMASK
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2
+          LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SHADOWS_SPLIT_SPHERES
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2
+          LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SHADOWS_SPLIT_SPHERES
+          UNITY_HDR_ON
+        passType: 4
+      - keywords: 
+        passType: 8
+  - first: {fileID: 10501, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 10502, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+          SHADOWS_SHADOWMASK
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2
+          LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SHADOWS_SPLIT_SPHERES
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2
+          LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SHADOWS_SPLIT_SPHERES
+          UNITY_HDR_ON
+        passType: 4
+      - keywords: 
+        passType: 8
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10625, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 10626, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_EXP2 UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 10623, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+          SHADOWS_SHADOWMASK
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2
+          LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SHADOWS_SPLIT_SPHERES
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2
+          LIGHTMAP_ON SHADOWS_SHADOWMASK UNITY_HDR_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2
+          LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SHADOWS_SPLIT_SPHERES
+          UNITY_HDR_ON
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SHADOWS_SPLIT_SPHERES
+        passType: 8
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SHADOWS_SPLIT_SPHERES UNITY_HDR_ON
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 SHADOWS_DEPTH SHADOWS_SPLIT_SPHERES
+          SOFTPARTICLES_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 SHADOWS_DEPTH SHADOWS_SPLIT_SPHERES
+          UNITY_HDR_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 SHADOWS_DEPTH SHADOWS_SPLIT_SPHERES
+          SOFTPARTICLES_ON UNITY_HDR_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 SOFTPARTICLES_ON UNITY_HDR_ON
+        passType: 13
+  - first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: FOG_EXP2
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_EXP2
+        passType: 0
+      - keywords: FOG_EXP2 UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: d12428961551799408aa97256fd770c3, type: 3}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 0
+      - keywords: FOG_EXP2 SHADOWS_DEPTH
+        passType: 0
+      - keywords: ENABLE_OPO FOG_EXP2 SHADOWS_DEPTH
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+          L_F_SS_ON N_F_SS_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SHADOWS_SPLIT_SPHERES
+          _ALPHABASECUTOUT_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS L_F_SS_ON N_F_SS_ON UNITY_HDR_ON _ALPHABASECUTOUT_ON
+          _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS ENABLE_OPO FOG_EXP2 L_F_SS_ON N_F_SS_ON
+          SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SHADOWS_SPLIT_SPHERES _ALPHABASECUTOUT_ON
+          _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON N_F_SS_ON
+          SHADOWS_SCREEN SHADOWS_SHADOWMASK
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+          N_F_SS_ON SHADOWS_SHADOWMASK
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH N_F_SS_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH N_F_SS_ON SHADOWS_SCREEN
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2
+          LIGHTMAP_ON L_F_SS_ON N_F_SS_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT
+          SHADOWS_SPLIT_SPHERES _ALPHABASECUTOUT_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH L_F_SS_ON
+          N_F_SS_ON _ALPHABASECUTOUT_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH L_F_SS_ON N_F_SS_ON
+          UNITY_HDR_ON _ALPHABASECUTOUT_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL ENABLE_OPO FOG_EXP2 LIGHTPROBE_SH
+          L_F_SS_ON N_F_SS_ON SHADOWS_SCREEN SHADOWS_SOFT SHADOWS_SPLIT_SPHERES _ALPHABASECUTOUT_ON
+          _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL L_F_SS_ON N_F_SS_ON UNITY_HDR_ON
+          _ALPHABASECUTOUT_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: FOG_EXP2 SHADOWS_DEPTH
+        passType: 8
+      - keywords: ENABLE_OPO FOG_EXP2 L_F_SS_ON N_F_SS_ON SHADOWS_DEPTH SHADOWS_SOFT
+          SHADOWS_SPLIT_SPHERES _ALPHABASECUTOUT_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: c73d0a68c32425f44990e420368ddda6, type: 3}
+    second:
+      variants:
+      - keywords: FOG_EXP2 SHADOWS_DEPTH
+        passType: 0
+      - keywords: FOG_EXP2 L_F_SS_ON N_F_SS_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS FOG_EXP2 L_F_SS_ON N_F_SS_ON _RIMLIGHTINLIGHT_ON
+          _SELFLITHIGHCONTRAST_ON
+        passType: 0
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH N_F_SS_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH L_F_SS_ON
+          N_F_SS_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH L_F_SS_ON
+          N_F_SS_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: L_F_SS_ON N_F_SS_ON _RIMLIGHTINLIGHT_ON _SELFLITHIGHCONTRAST_ON
+        passType: 8

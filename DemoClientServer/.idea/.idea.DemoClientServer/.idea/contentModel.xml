@@ -85,6 +85,7 @@
                 <e p="Unit.cs" t="Include" />
               </e>
               <e p="Utilities" t="Include">
+                <e p="JSONMap.cs" t="Include" />
                 <e p="MapJSONGenerator.cs" t="Include" />
               </e>
             </e>

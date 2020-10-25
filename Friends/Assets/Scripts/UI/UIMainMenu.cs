@@ -58,7 +58,7 @@ namespace UI
                 _registrationPanel.SetActive(false);
                 _mainMenu.SetActive(true);
                 _mainMenu.GetComponent<UICharacterGeneration>().getUnits();
-                SceneManager.LoadScene("Friends");
+                SceneManager.LoadScene("Character");
             }
         }
 
@@ -135,7 +135,7 @@ namespace UI
             _mainMenu.SetActive(true);
             _mainMenu.GetComponent<UICharacterGeneration>().getUnits();
             _mainMenu.GetComponent<UICharacterGeneration>().getUnits();
-            SceneManager.LoadScene("Friends");
+            SceneManager.LoadScene("Character");
         }
         /// <summary>
         /// Таймер для отключения панели

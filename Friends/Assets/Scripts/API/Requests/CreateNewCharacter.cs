@@ -2,7 +2,14 @@
 {
     public class CreateNewCharacter
     {
-       public string error { get; set; }
+        public Error error { get; set; }
+
+        public UnitCreateResponseData data { get; set; }
+
+        public class UnitCreateResponseData
+        {
+            public long unit_id { get; set; }
+        }
     }
 }
 

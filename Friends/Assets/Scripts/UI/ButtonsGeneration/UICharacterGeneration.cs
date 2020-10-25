@@ -16,7 +16,7 @@ namespace UI.ButtonGeneration
     public class UICharacterGeneration : MonoBehaviour
     {
         //Текстовое поле для вывода имени персонажа
-        public Dictionary<long, UnitResponseData> units;
+        //public Dictionary<long, UnitResponseData> units;
         [SerializeField] private Button button;
         [SerializeField] private GameObject CreateCharacter;
 
@@ -46,10 +46,10 @@ namespace UI.ButtonGeneration
         public void ClickAction()
         {
             //Передаем id выбранного героя
-            if(units.Count>0){
+            /*if(units.Count>0){
                 GameManager.GetGameManager().UnitId = units[1].unit.UnitId;
                 FindObjectOfType<UIMainMenu>().FindGame();
-            }
+            }*/
         }
 
         public void createOnClick()

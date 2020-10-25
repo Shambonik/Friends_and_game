@@ -16,9 +16,15 @@ namespace AureoleCore.UnitAPI
             return races;
         }
 
-        public static CreateNewCharacter CreateNewUnit(string sessionId,  string raceCode,  string unitName)
+        public static CreateNewCharacter CreateNewUnit(string androidId,  string _name,  string _class_name)
         {
-            var data = Net.Post<CreateNewCharacter>($"Unit/create", new {session_id = sessionId, race_code = raceCode, unit_name = unitName});
+            var data = Net.Post<CreateNewCharacter>($"user/unit/create", new {android_id = androidId, name = _name, class_name = _class_name});
+            return data;
+        }
+        
+        public static GetUnitsResponse GetUserUnits(string androidId)
+        {
+            GetUnitsResponse data = Net.Post<GetUnitsResponse>($"user/unit/list", new {android_id = androidId});
             return data;
         }
     }

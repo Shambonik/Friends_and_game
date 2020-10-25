@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using AureoleCore.UserAPI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FriendsScript : MonoBehaviour
@@ -45,7 +46,11 @@ public class FriendsScript : MonoBehaviour
             script.setData("null", user.user_id, user.name);
         }
     }
-    
+
+    public void openChat()
+    {
+        SceneManager.LoadScene("Chat");
+    }
 
     // Update is called once per frame
     void Update()

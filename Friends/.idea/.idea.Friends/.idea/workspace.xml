@@ -9,22 +9,34 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/ChatPanelScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/MessagePanelScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UnitChoice/UnitItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Friends/FriendsScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/JoystickController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ButtonsGeneration/UICharacterGeneration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/DeviceInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIMainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/API/Responses/RegistrationResponse.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/API/Responses/Utils/Net.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/API/UserAPI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Friends/FriendsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Friends/FriendItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/MessageScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/MessagePanelScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Friends/FriendsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/ChatPanelScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/API/Requests/CreateNewCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/API/Models/UnitResponseData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/API/Responses/GetUnitsResponse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/API/UserAPI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ButtonsGeneration/UICharacterGeneration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UnitChoice/UnitsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIMainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/API/UnitAPI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/API/Responses/Utils/Net.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UnitChoice/UnitItem.cs" />
       </list>
     </option>
   </component>
@@ -60,10 +72,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15616">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15616" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -80,6 +92,8 @@
       <updated>1603372097802</updated>
       <workItem from="1603372099790" duration="21000" />
       <workItem from="1603372176477" duration="15375000" />
+      <workItem from="1603628883333" duration="1681000" />
+      <workItem from="1603638665620" duration="5317000" />
     </task>
     <servers />
   </component>

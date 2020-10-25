@@ -49,6 +49,10 @@
               <e p="UIInventoryGeneration.cs" t="Include" />
             </e>
             <e p="Chat" t="Include">
+              <e p="NewChat" t="Include">
+                <e p="ChatPanelScript.cs" t="Include" />
+                <e p="MessagePanelScript.cs" t="Include" />
+              </e>
               <e p="UIChat.cs" t="Include" />
             </e>
             <e p="DeviceInfo.cs" t="Include" />
@@ -66,6 +70,10 @@
             <e p="MessageScript.cs" t="Include" />
             <e p="UICreateCharacterPanel.cs" t="Include" />
             <e p="UIMainMenu.cs" t="Include" />
+            <e p="UnitChoice" t="Include">
+              <e p="UnitItem.cs" t="Include" />
+              <e p="UnitsScript.cs" t="Include" />
+            </e>
           </e>
           <e p="Units" t="Include">
             <e p="Character.cs" t="Include" />

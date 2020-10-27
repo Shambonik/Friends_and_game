@@ -12,6 +12,7 @@ namespace AureoleCore.Models
         
         public List<ItemUpdate> Items { get; set; }
     }
+    
 
     public class UnitsUpdate
     {
@@ -22,6 +23,13 @@ namespace AureoleCore.Models
         public float Dx { get; set; }
         public float Dy { get; set; }
         public float Hp { get; set; }
+        
+        //убрать отсюда
+        public float MaxHp;
+        public float Exp;
+        public float MaxExp;
+        public float Mana;
+        public float MaxMana;
     }
 
     public class EventUpdate

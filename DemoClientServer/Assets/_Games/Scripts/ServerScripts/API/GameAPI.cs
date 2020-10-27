@@ -30,7 +30,7 @@ namespace AureoleCore.API
         public static GameBuffer GameBuffer = new GameBuffer();
         
         //Передавать как аргумент???
-        public static List<ChatModel> Chat = new List<ChatModel>();
+        //public static List<ChatModel> Chat = new List<ChatModel>();
         public static List<Item> InventoryItems = new List<Item>();
         
         //public static string inventory = "";
@@ -87,10 +87,10 @@ namespace AureoleCore.API
             Send(new {method = "c_add", Text = text}, host);
         }
 
-        public void ViewChatText()
+        /*public void ViewChatText()
         {
             Send(new {method = "c_get", Messages = Chat}, host);
-        }
+        }*/
 
         private void Start()
         {
@@ -131,7 +131,6 @@ namespace AureoleCore.API
 
         private void ClientUpdate()
         {
-            
             var serverObj = JObject.Parse(receiveString);
             switch (serverObj.SelectToken("Method").ToString())
             {
@@ -152,11 +151,11 @@ namespace AureoleCore.API
                     packagesTime.Add(DateTime.Now.ToFileTime());
                     Debug.Log("Package " + (packagesTime.Count/0.2) + '%');
                     break;
-                case "c_get":
-                    string messages = JObject.Parse(receiveString).SelectToken("Messages").ToString();
-                    Chat = JsonConvert.DeserializeObject<List<ChatModel>>(messages);
-                    ChatEvent?.Invoke();
-                    break;
+                //case "c_get":
+                    //string messages = JObject.Parse(receiveString).SelectToken("Messages").ToString();
+                    //Chat = JsonConvert.DeserializeObject<List<ChatModel>>(messages);
+                    //ChatEvent?.Invoke();
+                    //break;
                 case "get_inventory":
                     string inventory = JObject.Parse(receiveString).SelectToken("Body").ToString();
                     InventoryItems = JsonConvert.DeserializeObject<List<Item>>(inventory);

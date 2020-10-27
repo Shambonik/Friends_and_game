@@ -68,10 +68,14 @@ public class Network : MonoBehaviour
     private void UnitsDataSender(UnitsUpdate serverObj, Dictionary<int, Unit> _components)
     {
         if (!_components.ContainsKey((int) serverObj.Id)) return;
-
         _components[(int) serverObj.Id].Direction = new Vector3(serverObj.Dx, 0, serverObj.Dy);
         _components[(int) serverObj.Id].NextPosition = new Vector3(serverObj.X, 0, serverObj.Y);
         _components[(int) serverObj.Id].Health = serverObj.Hp;
+        _components[(int) serverObj.Id].MAXHealth = serverObj.MaxHp;
+        _components[(int) serverObj.Id].Exp = serverObj.Exp;
+        _components[(int) serverObj.Id].MAXExp = serverObj.MaxExp;
+        _components[(int) serverObj.Id].Mana = serverObj.Mana;
+        _components[(int) serverObj.Id].MAXMana = serverObj.MaxMana;
     }
 
     private void EventHandler()
@@ -270,7 +274,8 @@ public class Network : MonoBehaviour
                 gameAPI.Key(InputSystem.GetMovement().x, InputSystem.GetMovement().y);
                 GameAPI.GameBuffer.Aid = 0;
 
-                //WorldUpdate(gameAPI.WorldUpdate.Players, _players, _playerComponent);
+                WorldUpdate(gameAPI.WorldUpdate.Players, _players, _playerComponent);
+                OutputSystem._outputSystem.UpdateData();
                 WorldUpdate(gameAPI.WorldUpdate.Units, _enemies, _enemyComponent);
 
                 //Итемы
@@ -282,10 +287,9 @@ public class Network : MonoBehaviour
 
                 EventHandler();
             }
-
             yield return new WaitForSeconds(tick);
         }
-
+        
     }
 
 }

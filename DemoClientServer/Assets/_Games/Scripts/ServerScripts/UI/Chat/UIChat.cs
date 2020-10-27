@@ -46,7 +46,7 @@ public class UIChat : MonoBehaviour
         {
             //Debug.Log($"Check activated: {IsActrive}");
             if (GameAPI.gameAPI != null && isActive)
-                GameAPI.gameAPI.ViewChatText();
+                //GameAPI.gameAPI.ViewChatText();
 
             yield return new WaitForSeconds(0.1f);
         }
@@ -56,9 +56,9 @@ public class UIChat : MonoBehaviour
     {
         Debug.Log("CHAT_IVENT " + console.text);
         console.text = "";
-        foreach (var text in GameAPI.Chat)
-        {
-            console.text = console.text + "{" + text.Text + "}\n";
-        }
+        //foreach (var text in GameAPI.Chat)
+        //{
+            //console.text = console.text + "{" + text.Text + "}\n";
+        //}
     }
 }

@@ -10,12 +10,49 @@ public class Unit : MonoBehaviour
     protected Vector3 direction;
     protected static readonly int Walking = Animator.StringToHash("isWalking");
     protected float health;
+    protected float maxHealth = 20;
     protected Animator animator;
+    
+    //убрать отсюда
+    private float mana;
+    private float maxMana = 10;
+    private float exp;
+    private float maxExp = 10;
+
+    public float MAXExp
+    {
+        get => maxExp;
+        set => maxExp = value;
+    }
+
+    public float Exp
+    {
+        get => exp;
+        set => exp = value;
+    }
+
+    public float MAXMana
+    {
+        get => maxMana;
+        set => maxMana = value;
+    }
+
+    public float Mana
+    {
+        get => mana;
+        set => mana = value;
+    }
 
     public float Health
     {
         get => health;
         set => health = value;
+    }
+
+    public float MAXHealth
+    {
+        get => maxHealth;
+        set => maxHealth = value;
     }
 
     public Vector3 NextPosition

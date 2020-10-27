@@ -77,6 +77,7 @@
                 <e p="ItemMenu.cs" t="Include" />
                 <e p="JoystickController.cs" t="Include" />
                 <e p="MessageScript.cs" t="Include" />
+                <e p="OutputSystem.cs" t="Include" />
                 <e p="UICreateCharacterPanel.cs" t="Include" />
                 <e p="UIMainMenu.cs" t="Include" />
               </e>

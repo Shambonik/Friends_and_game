@@ -30,7 +30,7 @@ public class UIChat : MonoBehaviour
     {
         StartCoroutine(ConsoleUpdate());
         anim = GetComponent<Animator>();
-        GameAPI.gameAPI.ChatEvent += ChatUpdate;
+        //GameAPI.gameAPI.ChatEvent += ChatUpdate;
         GameAPI.gameAPI.Connect("sfsf", 34);
     }
 
@@ -52,7 +52,7 @@ public class UIChat : MonoBehaviour
         }
     }
 
-    private void ChatUpdate()
+    /*private void ChatUpdate()
     {
         Debug.Log("CHAT_IVENT " + console.text);
         console.text = "";
@@ -60,5 +60,5 @@ public class UIChat : MonoBehaviour
         {
             console.text = console.text + "{" + text.Text + "}\n";
         }
-    }
+    }*/
 }

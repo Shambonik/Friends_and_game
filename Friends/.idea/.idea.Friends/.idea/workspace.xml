@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/MessagePanelScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UnitChoice/UnitItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/ChatButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Friends/FriendsScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -24,9 +25,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/API/Responses/RegistrationResponse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Friends/FriendItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/MessageScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/MessagePanelScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Friends/FriendsScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/ChatPanelScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/API/Requests/CreateNewCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/API/Models/UnitResponseData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/API/Responses/GetUnitsResponse.cs" />
@@ -37,6 +36,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/API/UnitAPI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/API/Responses/Utils/Net.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UnitChoice/UnitItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/MessagePanelScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/API/Models/ChatModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/ChatButtonScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/NewChat/ChatPanelScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Chat/UIChat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/API/GameAPI.cs" />
       </list>
     </option>
   </component>
@@ -94,6 +99,8 @@
       <workItem from="1603372176477" duration="15375000" />
       <workItem from="1603628883333" duration="1681000" />
       <workItem from="1603638665620" duration="5317000" />
+      <workItem from="1603723654790" duration="6950000" />
+      <workItem from="1603795122128" duration="1758000" />
     </task>
     <servers />
   </component>
@@ -170,5 +177,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="29" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603390305772" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603795697541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603795697541" />
   </component>
 </project>

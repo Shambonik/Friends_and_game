@@ -50,6 +50,7 @@
             </e>
             <e p="Chat" t="Include">
               <e p="NewChat" t="Include">
+                <e p="ChatButtonScript.cs" t="Include" />
                 <e p="ChatPanelScript.cs" t="Include" />
                 <e p="MessagePanelScript.cs" t="Include" />
               </e>

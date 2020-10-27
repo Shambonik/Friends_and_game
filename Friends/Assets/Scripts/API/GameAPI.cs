@@ -128,6 +128,43 @@ namespace AureoleCore.API
         
         private List<long> packagesTime = new List<long>();
         
+        //hardcode chat (beginning)
+        public static void GetPublicChat()
+        {
+            string jsonString = "{\"messages\" : [{\"sender_name\" : \"Dan\", \"text\" : \"asdadsafsafaffsfsaf\"}," +
+                                "{\"sender_name\" : \"Shamb\", \"text\" : \"another text\"}," +
+                                "{\"sender_name\" : \"Leha\", \"text\" : \"Zdarova\"}]}";
+            ChatModel chat = JsonConvert.DeserializeObject<ChatModel>(jsonString);
+            setChat(chat);
+        }
+        
+        public static void GetChatWithPlayer()
+        {
+            string jsonString = "{\"messages\":[{\"sender_name\" : \"Player\", \"text\" : \"ti loh\"}," +
+                                "{\"sender_name\" : \"Me\", \"text\" : \"net ti\"}]}";
+            ChatModel chat = JsonConvert.DeserializeObject<ChatModel>(jsonString);
+            setChat(chat);
+        }
+
+        public static void GetPrivateChatList()
+        {
+            string jsonString = "{\"chats\" : [{\"name\" : \"Player\"}," +
+                                "{\"name\" : \"Leha\"}]}";
+            ChatList chatList = JsonConvert.DeserializeObject<ChatList>(jsonString);
+            setChatList(chatList);
+        }
+
+        private static void setChatList(ChatList chatList)
+        {
+            ChatPanelScript.chat.setPrivateChatsList(chatList);
+        }
+
+        private static void setChat(ChatModel chat)
+        {
+            ChatPanelScript.chat.setChat(chat);
+        }
+        //hardcode chat (end)
+
 
         private void ClientUpdate()
         {

@@ -155,6 +155,7 @@ public class JSONMap : MonoBehaviour
                 //var g = Instantiate(point);
                 //g.transform.position = new Vector3((pointCoord.x-300)/2, 20, (pointCoord.y-300)/2);
             }
+            Gizmos.DrawLine(previousPoint, new Vector3((points[0].x-300)/2, 20, (points[0].y-300)/2));
         }
         //throw new NotImplementedException();
     }
